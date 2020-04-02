@@ -1,4 +1,4 @@
-# smeacademiapps
+# Smeacademiapps
 Academic apps for my scholl. this is the first project i've had. im use php - native. first project in 11th grade!. but enjoy!
 
 # Release
