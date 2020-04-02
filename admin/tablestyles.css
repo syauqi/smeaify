@@ -1,0 +1,13 @@
+
+
+.datatable{
+    width: 10%;
+    padding: 0;
+    table-layout: auto !important;
+    white-space: nowrap;
+    border-radius: 15px;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-left: 200px;
+}
