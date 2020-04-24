@@ -1,8 +1,8 @@
-<h1 align="center">Selamat datang di Learnify! 👋</h1>
+<h1 align="center">Selamat datang di Smeaify! 👋</h1>
 
-![Learnify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587210779/Learnify-Landing-Page_2_edttvu.png "Learnify")
+![Learnify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587711057/screencapture-smeacademicapps-000webhostapp-2020-04-24-13_48_17_uokt3q.png "Smeaify")
 
-### 🤔 Apa itu Learnify?
+### 🤔 Apa itu Smeaify?
 Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
 
 #  Fitur yang tersedia di Learnify
