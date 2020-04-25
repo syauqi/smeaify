@@ -85,12 +85,7 @@ This project is MIT licensed. All rights reserved
 Landing page template by colorlib. thanks!
 im also making my own landing page. just go and type index2.php.
 
-#⚠ Note
-Anggota :	Syauqi Zaidan Khairan Khalaf ( Fullstack )
-	Nurul Annisa ( Front  - end )
-	Luthfi Ramdhan Fadhilah ( Wireframing & tester )
-	Askal Fahreze ( Tester )
-
+# ⚠Note
 Nama database harus id11936322_deprojects dan silahkan import.
 
 
