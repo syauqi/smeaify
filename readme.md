@@ -3,7 +3,7 @@
 ![Smeaify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587711191/smeaify_rtjaf0.png "Smeaify")
 
 ### 🤔 Apa itu Smeaify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang didesign semenarik dan sesimple mungkin.** Smeaify dibuat ditujukan untuk para pemula yang baru belajar PHP agar memahami seluk beluk sembari belajar fungsi fungsi  yang terdapat dalam PHP.
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang didesign semenarik dan sesimple mungkin.** Smeaify dibuat ditujukan untuk para pemula yang baru belajar PHP agar memahami seAluk beluk sembari belajar fungsi fungsi  yang terdapat dalam PHP.
 
 #  Fitur yang tersedia di Smeaify
 - Student Login System
@@ -49,8 +49,9 @@ Released in 21 january 2020. im sorry if u find bug. i cant continue this projec
 - XAMPP ( Atau apps web server lain )
 
 ## 💻 Install
-Clone/Download repository ini lalu simpan di folder htdocs ( jika memakai XAMPP)
+ - Clone/Download repository ini lalu simpan di folder htdocs ( jika memakai XAMPP)
 Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
+ - make a database in your dbms and name it just like my sql name. then import the sql file in this repo to your dbms.
 
 ## 🧑 Author
 
@@ -68,44 +69,23 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.Berhub
 ## 💙 Thanks to
  - Family
  - Allah SWT
+ - To my team.
 
 ## 📝 License
 Copyright © 2019 Syauqi Zaidan Khairan Khalaf.
 This project is MIT licensed. All rights reserved
 
-# Smeacademiapps
-Academic apps for my scholl. this is the first project i've had. im use php - native. first project in 11th grade!. but enjoy!
-
-# Release
-Released in 21 january 2020. im sorry if u find bug. i cant continue this project because im moving on to codeigniter. and laravel so on.
-
-# Instalation
-make a database in your dbms and name it just like my sql name. then import the sql file in this repo to your dbms.
-
-# Admin and user.
-Admin account : 
-  - username : admin
-  - password : admin
-
-you can see the user password and username because its not hashed.
-
-# Server Requirements
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.4.8 as well, but we strongly advise you NOT to run such old versions of PHP, because of potential security and performance issues, as well as missing features.
+ ## 🧑  Members
+- Syauqi Zaidan Khairan Khalaf as leader,analyst and fullstack developer. 
+- Askal drajat fahrezi as tester
+- Luthfi as wireframer.
+- Annisa as front end.
 
 # Resources
 Landing page template by colorlib. thanks!
 im also making my own landing page. just go and type index2.php.
 
-# Special thanks
-to my team.
-Syauqi Zaidan Khairan Khalaf as leader,analyst and fullstack developer.
-Askal drajat fahrezi as tester
-Luthfi as wireframer.
-Annisa as front end.
-
-# NOTE
+#⚠ Note
 Anggota :	Syauqi Zaidan Khairan Khalaf ( Fullstack )
 	Nurul Annisa ( Front  - end )
 	Luthfi Ramdhan Fadhilah ( Wireframing & tester )
@@ -113,7 +93,4 @@ Anggota :	Syauqi Zaidan Khairan Khalaf ( Fullstack )
 
 Nama database harus id11936322_deprojects dan silahkan import.
 
-Login Admin
-Username :admin
-Password :admin
 
