@@ -3,25 +3,16 @@
 ![Learnify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587711191/smeaify_rtjaf0.png "Smeaify")
 
 ### 🤔 Apa itu Smeaify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon ) yang didesign semenarik dan sesimple mungkin.** Learnify dibuat ditujukan agar para siswa dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja. Saya buat Open Souce karena teman teman komunitas di facebook sangat semangat untuk mengembangkannya. Jika kalian ingin berpartisipasi, cukup fork repository ini dan Happy Coding!
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang didesign semenarik dan sesimple mungkin.** Smeaify dibuat ditujukan untuk para pemula yang baru belajar PHP agar memahami seluk beluk sembari belajar fungsi fungsi  yang terdapat dalam PHP.
 
-#  Fitur yang tersedia di Learnify
+#  Fitur yang tersedia di Smeaify
 - Student Login System
-- Student Registration w/ email verification ( Bisa diaktifkan, Message atau email saya saja untuk mengaktifkan nya)
-- Disqus Comment Every Lesson
-- Email Verification System
-- Student Data Management
-- Teacher Data Management
-- Lesson Data Management
-- Minimalist UI Designs
-- Administrator Page for Data Management ( Students, Lesson and Teacher Data)
-- Student Page for learning
-- Teacher Page for uploading a lesson
-- Fancy Animations!
-- Tidio Chat
-- Well designed admin page
-- 5 MAPEL ( Matematika, IPA, Bahasa Indonesia, Bahasa Inggris dan Pendidikan Agama Islam.
-- And Manymore !
+- Student Registration
+- Landing page , About page, Contact page
+- Data CRUD Mapel
+- Data CRUD Siswa
+- Data CRUD Dosen
+- Data CRUD Kontrak Mapel
 
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
 Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
@@ -30,10 +21,8 @@ Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena i
 Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang. Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github
 
 ### 📆 <a href="http://syauqi.js.org/">Release Date</a>
-Release date : 1 April 2020 v 0.1.0 ( BETA )
-Final Release : 17 April ! thanks guys!
-Project ini dapat kalian kembangkan dan modifikasi sesuai kebutuhan kalian.
-untuk saat ini saya tidak akan melanjutkan projek ini.
+Final Release : 31 Desember 2019 ( Still has bug, need improvements )
+
 
 ------------
 
