@@ -3,16 +3,20 @@
 ![Smeaify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587711191/smeaify_rtjaf0.png "Smeaify")
 
 ### 🤔 Apa itu Smeaify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang didesign semenarik dan sesimple mungkin.** Smeaify dibuat ditujukan untuk para pemula yang baru belajar PHP agar memahami seAluk beluk sembari belajar fungsi fungsi  yang terdapat dalam PHP.
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang didesign semenarik dan sesimple mungkin.**
 
-#  Fitur yang tersedia di Smeaify
-- Student Login System
-- Student Registration
-- Landing page , About page, Contact page
-- Data CRUD Mapel
-- Data CRUD Siswa
-- Data CRUD Dosen
-- Data CRUD Kontrak Mapel
+### 😏 Tujuan dibuatnya Smeaify?
+Smeaify dibuat ditujukan untuk para pemula yang baru belajar PHP agar memahami seluk beluk sembari belajar fungsi fungsi  yang terdapat dalam PHP. Sekaligus menyelesaikan project pertama saya disekolah.
+
+### 🤨 Fitur yang tersedia di Smeaify
+- Student Login System.
+- Student Registration.
+- Landing page.
+- Lessons CRUD Management.
+- Students CRUD Management. 
+- Lecture CRUD Management.
+- Contract CRUD Management.
+- Easy and simple usability.
 
 ### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
 Halaman Homepage & Dokumentasi project ini sedang saya kembangkan. oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
