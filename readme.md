@@ -52,6 +52,9 @@ Smeaify dibuat ditujukan untuk para pemula yang baru belajar PHP agar memahami s
 - XAMPP ( Atau apps web server lain )
 - Internet ( Karena saya memakai CDN Bootstrap )
 
+## ◾️ Note
+Nama database harus id11936322_deprojects dan silahkan import.
+
 ## 💻 Install
  - Clone/Download repository ini lalu simpan di folder htdocs ( Jika kalian memakai XAMPP)
  -  Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
@@ -90,7 +93,5 @@ Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
 Landing page template by Colorlib. Thanks!
 **Im also making my own landing page. Just go and type index2.php.**
 
-## ◾️ Note
-Nama database harus id11936322_deprojects dan silahkan import.
 
 
