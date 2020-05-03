@@ -85,13 +85,13 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.** Ber
  - To my team 🤩
 
 ## 📝 License
-Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
-**This project is MIT licensed. All rights reserved**
+- Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
+- **This project is MIT licensed. All rights reserved**
 
 
 ## Resources
-Landing page template by Colorlib. Thanks!
-**Im also making my own landing page. Just go and type index2.php.**
+- Landing page template by Colorlib. Thanks!
+- **Im also making my own landing page. Just go and type index2.php.**
 
 
 
