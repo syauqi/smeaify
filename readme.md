@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di Smeaify! 👋</h1>
 
-![Smeaify](https://res.cloudinary.com/dc0rn8rch/image/upload/v1587711191/smeaify_rtjaf0.png "Smeaify")
+![Smeaify](https://user-images.githubusercontent.com/46257169/90014451-490bb100-dcd1-11ea-9087-4f3f5dd556e0.png)
 
 ### 🤔 Apa itu Smeaify?
 Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang didesign semenarik dan sesimple mungkin.**
