@@ -3,33 +3,28 @@
 ![Smeaify](https://user-images.githubusercontent.com/46257169/90014451-490bb100-dcd1-11ea-9087-4f3f5dd556e0.png)
 
 ### 🤔 Apa itu Smeaify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/Syauqizaidan"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang didesign semenarik dan sesimple mungkin.**
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang dibuat untuk mempermudah sistem akademik di universitas**
 
 ### 😏 Tujuan dibuatnya Smeaify?
-Smeaify dibuat ditujukan untuk para pemula yang baru belajar PHP agar memahami seluk beluk sembari belajar fungsi fungsi  yang terdapat dalam PHP. Sekaligus menyelesaikan project pertama saya disekolah.
+Smeaify dibuat untuk mempermudah proses manajemen data di universitas agar dapat memperoleh hasil maksimal
 
 ### 🤨 Fitur yang tersedia di Smeaify
-- Student Login System.
-- Student Registration.
-- Landing page.
-- Lessons CRUD Management.
-- Students CRUD Management. 
-- Lecture CRUD Management.
-- Contract CRUD Management.
-- Easy and simple usability.
+- Landing page
+- Student Registration
+- Student Login System
+- Easy and simple usability
+- Lessons, students, contract & lecture data management
 
-### 🏠 <a href="http://syauqi.js.org/">Homepage</a>
+### 🏠 <a href="#/">Homepage</a>
 **Halaman Homepage & Dokumentasi project ini sedang saya kembangkan.** oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
 
-### ✨ <a href="http://syauqi.js.org/">Demo</a>
-**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github
+### ✨ <a href="#/">Demo</a>
+**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian bisa fork lalu clone dan jalankan di localhost atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
 
-### 📆 <a href="http://syauqi.js.org/">Release Date</a>
-**Released in 21 january 2020. im sorry if u find bug. i cant continue this project because im moving on to codeigniter. and laravel so on.**
-
+### 📆 <a href="#">Release Date</a>
+- First release : 21 January 2020
 
 ------------
-
 
  ### 👤 Default Account for testing
 	
@@ -45,53 +40,47 @@ Smeaify dibuat ditujukan untuk para pemula yang baru belajar PHP agar memahami s
 
 ------------
 
-
 ### 🧐 Prasyarat yang diperlukan 
 - Versi PHP5+
-- Web Browser
 - XAMPP ( Atau apps web server lain )
+- Web Browser  ( Chrome, Firefox, Edge, Safari )
 - Internet ( Karena saya memakai CDN Bootstrap )
 
 ### ◾️ Note
 Nama database harus id11936322_deprojects dan silahkan import.
 
 ### 💻 Install
- - Clone/Download repository ini lalu simpan di folder htdocs ( Jika kalian memakai XAMPP)
+ - Clone/Download repository ini lalu simpan di folder htdocs ( Jika kalian memakai XAMPP )
  -  Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
  - Make a database in your dbms and name it just like my sql name. then import the sql file in this repo to your dbms.
 
 ### 👥  Members
-- Syauqi Zaidan Khairan Khalaf as Leader and Fullstack Developer.
-- Askal Drajat Fahrezi as Tester.
-- Luthfi Ramdhan Faddilah as Tester.
-- Nurul Anissa as Frontend.
+- Syauqi Zaidan Khairan Khalaf
+- Askal Drajat Fahrezi
+- Luthfi Ramdhan Faddilah
+- Nurul Anissa 
 
 ### 🧑 Author
 
-👤 <a href="https://web.facebook.com/zaidan.syauqi.9"> **Syaauqi Zaaidan Khairan Khalaf**</a>
-- Twitter : <a href="https://twitter.com/syauqykhairan"> @syauqykhairan</a>
-- Facebook : <a href="https://web.facebook.com/zaidan.syauqi.9"> Syauqi Zaidan Khairan Khalaf</a>
+👤 <a href="https://web.facebook.com/syaauqi"> **Syauqi Zaidan Khairan Khalaf**</a>
+- Twitter : <a href="https://twitter.com/syaaauqi"> @syaaauqi</a>
+- Facebook : <a href="https://web.facebook.com/syaaauqi"> Syauqi Zaidan Khairan Khalaf</a>
 - Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
-- Dribbble : <a href="https://dribbble.com/syauqyzaidan">@syauqyzaidan </a>
-- Behance :  <a href="https://www.behance.net/syaauqizaaidan">@syaauqizaaidan </a>
+- Dribbble : <a href="https://dribbble.com/syaufy">@syaufy </a>
+- Behance :  <a href="https://www.behance.net/syaufy">@syaufy </a>
 
 ### 🤝 Contributing
 **Contributions, issues and feature requests di persilahkan.
 Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.** Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!
 
-### 💙 Thanks to
- - My Family 🤗
- - Allah SWT 😇
- - To my team 🤩
 
 ### 📝 License
-- Copyright © 2020 Syauqi Zaidan Khairan Khalaf.
+- Copyright © 2020 Syauqi Zaidan Khairan Khalaf
 - **This project is MIT licensed. All rights reserved**
 
-
 ### 🔎 Resources
-- Landing page template by Colorlib. Thanks!
-- **Im also making my own landing page. Just go and type index2.php.**
+- Landing page template by colorlib
+- **Im also making my own landing page, just go and type index2.php**
 
-
-
+------------
+**Made with ❤️ by Syauqi Zaidan Khairan Khalaf**
