@@ -3,10 +3,10 @@
 ![Smeaify](https://user-images.githubusercontent.com/46257169/90014451-490bb100-dcd1-11ea-9087-4f3f5dd556e0.png)
 
 ### 🤔 Apa itu Smeaify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang dibuat untuk mempermudah sistem akademik di universitas**
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang dibuat untuk mempermudah sistem akademik di universitas.**
 
 ### 😏 Tujuan dibuatnya Smeaify?
-Smeaify dibuat untuk mempermudah proses manajemen data di universitas agar dapat memperoleh hasil maksimal
+Smeaify dibuat untuk mempermudah proses manajemen data di universitas agar dapat memperoleh hasil maksimal.
 
 ### 🤨 Fitur yang tersedia di Smeaify
 - Landing page
@@ -52,8 +52,7 @@ Nama database harus id11936322_deprojects dan silahkan import.
 ### 💻 Install
  - Clone/Download repository ini lalu simpan di folder htdocs ( Jika kalian memakai XAMPP )
  -  Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
- - Make a database in your dbms and name it just like my sql name. then import the sql file in this repo to your dbms.
-
+ 
 ### 👥  Members
 - Syauqi Zaidan Khairan Khalaf
 - Askal Drajat Fahrezi
