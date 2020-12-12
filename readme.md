@@ -3,7 +3,7 @@
 ![Smeaify](https://user-images.githubusercontent.com/46257169/90014451-490bb100-dcd1-11ea-9087-4f3f5dd556e0.png)
 
 ### 🤔 Apa itu Smeaify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> Syauqi Zaidan Khairan Khalaf </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang dibuat untuk mempermudah sistem akademik di universitas.**
+Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> SYAUQIZAIDAN KHAIRAN KHALAF </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang dibuat untuk mempermudah sistem akademik di universitas.**
 
 ### 😏 Tujuan dibuatnya Smeaify?
 Smeaify dibuat untuk mempermudah proses manajemen data di universitas agar dapat memperoleh hasil maksimal.
