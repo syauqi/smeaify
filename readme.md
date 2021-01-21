@@ -54,14 +54,14 @@ Nama database harus id11936322_deprojects dan silahkan import.
  -  Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
  
 ### 👥  Members
-- Syauqi Zaidan Khairan Khalaf
+- SYAUQIZAIDAN KHAIRAN KHALAF
 - Askal Drajat Fahrezi
 - Luthfi Ramdhan Faddilah
 - Nurul Anissa 
 
 ### 🧑 Author
 
-👤 <a href="https://web.facebook.com/syaauqi"> **Syauqi Zaidan Khairan Khalaf**</a>
+👤 <a href="https://web.facebook.com/syaauqi"> **SYAUQIZAIDAN KHAIRAN KHALAF**</a>
 - Twitter : <a href="https://twitter.com/syaaauqi"> @syaaauqi</a>
 - Facebook : <a href="https://web.facebook.com/syaaauqi"> Syauqi Zaidan Khairan Khalaf</a>
 - Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
@@ -74,7 +74,7 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.** Ber
 
 
 ### 📝 License
-- Copyright © 2020 Syauqi Zaidan Khairan Khalaf
+- Copyright © 2020 SYAUQIZAIDAN KHAIRAN KHALAF
 - **This project is MIT licensed. All rights reserved**
 
 ### 🔎 Resources
