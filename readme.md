@@ -82,4 +82,4 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.** Ber
 - **Im also making my own landing page, just go and type index2.php**
 
 ------------
-**Made with ❤️ by Syauqi Zaidan Khairan Khalaf**
+**Made with ❤️ by SYAUQIZAIDAN KHAIRAN KHALAF**
