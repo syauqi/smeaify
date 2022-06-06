@@ -16,8 +16,8 @@
 <?php
 session_start();
 include "koneksi.php";
-if($_SESSION['status']!="login"){
-	header("location:../index.php?pesan=belum_login");
+if ($_SESSION['status'] != "login") {
+  header("location:../index.php?pesan=belum_login");
 }
 
 ?>
@@ -29,7 +29,7 @@ if($_SESSION['status']!="login"){
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>
-    Data Kontrak <?=$_SESSION['username']?>
+    Data Kontrak <?= $_SESSION['username'] ?>
   </title>
   <!-- Favicon -->
   <link href="../assets/img/brand/favicon.png" rel="icon" type="image/png">
@@ -53,7 +53,7 @@ if($_SESSION['status']!="login"){
       </button>
       <!-- Brand -->
       <a class="navbar-brand pt-1 pb-0" href="../index.php">
-      <p class="text-info text-uppercase font-weight-bold" style="font-family:montserrat,sans-serif !important; font-size:35px;">&mdash;&mdash;Siswa</p>
+        <p class="text-info text-uppercase font-weight-bold" style="font-family:montserrat,sans-serif !important; font-size:35px;">&mdash;&mdash;Siswa</p>
       </a>
       <!-- User -->
       <ul class="nav align-items-center d-md-none">
@@ -124,11 +124,11 @@ if($_SESSION['status']!="login"){
           </div>
         </div>
         <!-- Form -->
-       
-     <!-- Navigation -->
-     <ul class="navbar-nav mt--3">
-          <li class="nav-item  class=" >
-          <a class=" nav-link  " href=" ../user.php"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
+
+        <!-- Navigation -->
+        <ul class="navbar-nav mt--3">
+          <li class="nav-item  class=">
+            <a class=" nav-link  " href=" ../user.php"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
             </a>
           </li>
           <li class="nav-item">
@@ -170,8 +170,8 @@ if($_SESSION['status']!="login"){
         <!-- Divider -->
         <hr class="my-3">
         <!-- Heading -->
-        
-    </div>
+
+      </div>
   </nav>
   <div class="main-content">
     <!-- Navbar -->
@@ -180,7 +180,7 @@ if($_SESSION['status']!="login"){
         <!-- Brand -->
         <a class="h1 mb-0 text text-white text-capitalize d-none d-lg-inline-block" href="./index.php" style="font-family:montserrat,sans serif !important; font-size:40px;">Data Kontrak Mapel.</a>
         <!-- Form -->
-     
+
         <!-- User -->
         <ul class="navbar-nav align-items-center d-none d-md-flex">
           <li class="nav-item dropdown">
@@ -190,7 +190,7 @@ if($_SESSION['status']!="login"){
                   <img alt="Image placeholder" src="../assets/img/theme/team-1-800x800.svg">
                 </span>
                 <div class="media-body ml-2 d-none d-lg-block">
-                  <span class="mb-0 text-sm  font-weight-bold">Selamat datang &mdash; <?=$_SESSION['username'];?> !</span>
+                  <span class="mb-0 text-sm  font-weight-bold">Selamat datang &mdash; <?= $_SESSION['username']; ?> !</span>
                 </div>
               </div>
             </a>
@@ -226,12 +226,12 @@ if($_SESSION['status']!="login"){
                     <div class="col">
                       <h5 class="card-title text-capitalize text-muted mb-0">Jumlah Siswa</h5>
                       <span class="h2 font-weight-bold mb-0"><?php
-                      include "../../koneksi.php";
-                      $count = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM siswa"));
-                      echo $count;
-                
-                    ?>
-                     
+                                                              include "../../koneksi.php";
+                                                              $count = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM siswa"));
+                                                              echo $count;
+
+                                                              ?>
+
 
 
                       </span>
@@ -243,9 +243,9 @@ if($_SESSION['status']!="login"){
                     </div>
                   </div>
                   <p class="mt-0 mb-0 text-muted text-sm">
-                  
-                  <span class="text-nowrap">Terdaftar Di Database</span>
-                </p>
+
+                    <span class="text-nowrap">Terdaftar Di Database</span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -257,12 +257,12 @@ if($_SESSION['status']!="login"){
                       <h5 class="card-title text-capitalize text-muted mb-0">Jumlah Guru</h5>
                       <span class="h2 font-weight-bold mb-0">
 
-                      <?php
-                      include "../../koneksi.php";
-                      $count = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM guru"));
-                      echo $count;
-                
-                    ?>
+                        <?php
+                        include "../../koneksi.php";
+                        $count = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM guru"));
+                        echo $count;
+
+                        ?>
 
 
 
@@ -275,9 +275,9 @@ if($_SESSION['status']!="login"){
                     </div>
                   </div>
                   <p class="mt-0 mb-0 text-muted text-sm">
-                  
-                  <span class="text-nowrap">Terdaftar Di Database</span>
-                </p>
+
+                    <span class="text-nowrap">Terdaftar Di Database</span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -288,12 +288,12 @@ if($_SESSION['status']!="login"){
                     <div class="col">
                       <h5 class="card-title text-capitalize text-muted mb-0">Jumlah Ruangan</h5>
                       <span class="h2 font-weight-bold mb-0">
-                      <?php
-                      include "../../koneksi.php";
-                      $count = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM ruangan"));
-                      echo $count;
-                
-                    ?>
+                        <?php
+                        include "../../koneksi.php";
+                        $count = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM ruangan"));
+                        echo $count;
+
+                        ?>
                       </span>
                     </div>
                     <div class="col-auto">
@@ -303,9 +303,9 @@ if($_SESSION['status']!="login"){
                     </div>
                   </div>
                   <p class="mt-0 mb-0 text-muted text-sm">
-                  
-                  <span class="text-nowrap">Terdaftar Di Database</span>
-                </p>
+
+                    <span class="text-nowrap">Terdaftar Di Database</span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -316,12 +316,12 @@ if($_SESSION['status']!="login"){
                     <div class="col">
                       <h5 class="card-title text-capitalize text-muted mb-0">Jumlah Mapel</h5>
                       <span class="h2 font-weight-bold mb-0">
-                      <?php
-                      include "../../koneksi.php";
-                      $count = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM mapel"));
-                      echo $count;
-                
-                    ?>
+                        <?php
+                        include "../../koneksi.php";
+                        $count = mysqli_num_rows(mysqli_query($koneksi, "SELECT * FROM mapel"));
+                        echo $count;
+
+                        ?>
 
                       </span>
                     </div>
@@ -332,9 +332,9 @@ if($_SESSION['status']!="login"){
                     </div>
                   </div>
                   <p class="mt-0 mb-0 text-muted text-sm">
-                  
-                  <span class="text-nowrap">Terdaftar Di Database</span>
-                </p>
+
+                    <span class="text-nowrap">Terdaftar Di Database</span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -348,144 +348,146 @@ if($_SESSION['status']!="login"){
         <div class="col">
           <div class="card shadow">
             <div class="card-header border-0">
-            <a data-toggle="modal" data-target="#exampleModalCenter"><h1 class="mb-0 text-info text text-capitalize d-none d-lg-inline-block"style="font-family:montserrat; font-size:40px;">Tambah Data Kontrak Disini. </h1></a>
+              <a data-toggle="modal" data-target="#exampleModalCenter">
+                <h1 class="mb-0 text-info text text-capitalize d-none d-lg-inline-block" style="font-family:montserrat; font-size:40px;">Tambah Data Kontrak Disini. </h1>
+              </a>
             </div>
             <div class="table-responsive p-4">
               <table id="example" class="table align-items-center table-flush">
                 <thead class="thead-light">
                   <tr>
                     <th scope="col">ID</th>
-                    <th scope="col">NIS</th>       
-                    <th scope="col">Nama Siswa</th>   
-                    <th scope="col">Kode Mapel</th>       
+                    <th scope="col">NIS</th>
+                    <th scope="col">Nama Siswa</th>
+                    <th scope="col">Kode Mapel</th>
                     <th scope="col">Nama Mapel</th>
-             
+
                     <th scope="col"></th>
                   </tr>
-                 
+
                 </thead>
-                
+
                 <tbody>
-                <?php 
-        include 'koneksi.php';
-        $username = $_SESSION['username'];
-		$data = mysqli_query($koneksi,"select * from kontrak where nama_siswa='$username'");
-		while($d = mysqli_fetch_array($data)){
-			?>
-                  <tr>
-                    
-                    <th scope="row">
-                    <?php echo $d['id']; ?>
-                    </th>
-                    <td>
-                    <?php echo $d['nis']; ?>
-                    </td>
-                    <td>
-                    <?php echo $d['nama_siswa']; ?>
-                    </td>
-                    <td>
-                    <?php echo $d['kode_mapel']; ?>
-                    </td>
-                    <td>
-                    <?php echo $d['nama_mapel']; ?>
-                    </td>
-                  
-                    
-                   
-                   
-                    <td class="text-right">
-                      
-                      </div>
-                    </td>
-                  </tr>
-                  
-                  <?php 
-		}
-		?>
-                </tbody>
-              </table>
+                  <?php
+                  include 'koneksi.php';
+                  $username = $_SESSION['username'];
+                  $data = mysqli_query($koneksi, "select * from kontrak where nama_siswa='$username'");
+                  while ($d = mysqli_fetch_array($data)) {
+                  ?>
+                    <tr>
+
+                      <th scope="row">
+                        <?php echo $d['id']; ?>
+                      </th>
+                      <td>
+                        <?php echo $d['nis']; ?>
+                      </td>
+                      <td>
+                        <?php echo $d['nama_siswa']; ?>
+                      </td>
+                      <td>
+                        <?php echo $d['kode_mapel']; ?>
+                      </td>
+                      <td>
+                        <?php echo $d['nama_mapel']; ?>
+                      </td>
+
+
+
+
+                      <td class="text-right">
+
             </div>
+            </td>
+            </tr>
+
+          <?php
+                  }
+          ?>
+          </tbody>
+          </table>
           </div>
         </div>
       </div>
-     <!-- Button trigger modal -->
-
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" style="font-family: montserrat; font-size:50px; letter-spacing:-2px;" id="exampleModalLongTitle">Tambah Kontrak Mapel</h1>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mt--5">
-        <form action="addkontrak.php" method="post">
-  <div class="form-group">
-    <input type="hidden" class="form-control" id="exampleFormControlInput1" name="id">
-  </div>
-  <br>
-  <label for="search" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Nomor induk siswa</label>
-  <div class="md-form active-pink active-pink-2 mb-3 mt-0">
-  
-  <input class="form-control" list="siswa" size="50" type="text" value="<?php echo $d['nis']?>" id="nis" onkeyup="autofills()" required name="nis" placeholder="Cari NIS .." aria-label="Search">
-
-  <datalist id="siswa">
-  <?php
-    include "koneksi.php";
-    $username = $_SESSION['username'];
-    $data = mysqli_query($koneksi,"select nis from siswa where username='$username'");
-    while ($t=mysqli_fetch_array($data)) {
-    echo "<option value='$t[nis]'>";
-    }
-    ?>
-  </datalist>
-  </div>
-  <div class="form-group">
-    <label for="nama_siswa" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Nama Siswa</label>
-    <input type="text" class="form-control" id="nama_siswa" readonly required name="nama_siswa">
-  </div>
-  <label for="search" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Kode Mapel</label>
-  <div class="md-form active-pink active-pink-2 mb-3 mt-0">
-  <input class="form-control" list="mapel" size="50" type="text" onkeyup="autofill()" required id="kode_mapel" name="kode_mapel" placeholder="Cari Kode Mapel .." aria-label="Search">
-  <datalist id="mapel">
-    <?php
-    include "koneksi.php";
-    $qry=mysqli_query($koneksi,"SELECT kode_mapel From mapel");
-    while ($t=mysqli_fetch_array($qry)) {
-    echo "<option value='$t[kode_mapel]'>";
-    }
-    ?>
-  </datalist>
-  </div>
-  <div class="form-group">
-    <label for="nama_mapel" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Nama Mapel</label>
-    <input type="text" class="form-control" id="nama_mapel" readonly required name="nama_mapel">
-  </div>
-  </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="submit" name="kirim" class="btn btn-primary">Tambah Kontrak</button>
-      </div>
-</form>
-      
     </div>
-  </div>
-</div>
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="row align-items-center justify-content-xl-between">
-          <div class="col-xl-6">
-            <div class="copyright text-center text-xl-left text-muted">
-              &copy; 2018 <a href="https://syauqizaidan.github.io" class="font-weight-bold ml-1" target="_blank">Syauqi Zaidan</a>
-            </div>
+    <!-- Button trigger modal -->
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" style="font-family: montserrat; font-size:50px; letter-spacing:-2px;" id="exampleModalLongTitle">Tambah Kontrak Mapel</h1>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <div class="col-xl-6">
-            <!-- <ul class="nav nav-footer justify-content-center justify-content-xl-end">
+          <div class="modal-body mt--5">
+            <form action="addkontrak.php" method="post">
+              <div class="form-group">
+                <input type="hidden" class="form-control" id="exampleFormControlInput1" name="id">
+              </div>
+              <br>
+              <label for="search" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Nomor induk siswa</label>
+              <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+
+                <input class="form-control" list="siswa" size="50" type="text" value="<?php echo $d['nis'] ?>" id="nis" onkeyup="autofills()" required name="nis" placeholder="Cari NIS .." aria-label="Search">
+
+                <datalist id="siswa">
+                  <?php
+                  include "koneksi.php";
+                  $username = $_SESSION['username'];
+                  $data = mysqli_query($koneksi, "SELECT nis from siswa where username='$username'");
+                  while ($t = mysqli_fetch_array($data)) {
+                    echo "<option value='$t[nis]'>";
+                  }
+                  ?>
+                </datalist>
+              </div>
+              <div class="form-group">
+                <label for="nama_siswa" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Nama Siswa</label>
+                <input type="text" class="form-control" id="nama_siswa" readonly required name="nama_siswa">
+              </div>
+              <label for="search" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Kode Mapel</label>
+              <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+                <input class="form-control" list="mapel" size="50" type="text" onkeyup="autofill()" required id="kode_mapel" name="kode_mapel" placeholder="Cari Kode Mapel .." aria-label="Search">
+                <datalist id="mapel">
+                  <?php
+                  include "koneksi.php";
+                  $qry = mysqli_query($koneksi, "SELECT kode_mapel From mapel");
+                  while ($t = mysqli_fetch_array($qry)) {
+                    echo "<option value='$t[kode_mapel]'>";
+                  }
+                  ?>
+                </datalist>
+              </div>
+              <div class="form-group">
+                <label for="nama_mapel" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Nama Mapel</label>
+                <input type="text" class="form-control" id="nama_mapel" readonly required name="nama_mapel">
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" name="kirim" class="btn btn-primary">Tambah Kontrak</button>
+          </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row align-items-center justify-content-xl-between">
+        <div class="col-xl-6">
+          <div class="copyright text-center text-xl-left text-muted">
+            &copy; 2018 <a href="https://syauqizaidan.github.io" class="font-weight-bold ml-1" target="_blank">Syauqi Zaidan</a>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <!-- <ul class="nav nav-footer justify-content-center justify-content-xl-end">
               <li class="nav-item">
                 <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
               </li>
@@ -499,10 +501,10 @@ if($_SESSION['status']!="login"){
                 <a href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md" class="nav-link" target="_blank">MIT License</a>
               </li>
             </ul> -->
-          </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
+  </div>
   </div>
   <!--   Core   -->
   <script src="../assets/js/plugins/jquery/dist/jquery.min.js"></script>
@@ -510,74 +512,74 @@ if($_SESSION['status']!="login"){
   <!--   Optional JS   -->
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>
-            function autofill(){
-                var kode_mapel = $("#kode_mapel").val();
-                $.ajax({
-                    url: 'autofill.php',
-                    data:"kode_mapel="+kode_mapel ,
-                }).success(function (data) {
-                    var json = data,
-                    obj = JSON.parse(json);
-                    $('#nama_mapel').val(obj.nama_mapel);
-                });
-            }
-        </script>
-        <script>
-            function autofills(){
-                var nis = $("#nis").val();
-                $.ajax({
-                    url: 'autofill2.php',
-                    data:"nis="+nis ,
-                }).success(function (data) {
-                    var json = data,
-                    obj = JSON.parse(json);
-                    $('#nama_siswa').val(obj.nama_siswa);
-                });
-            }
-        </script>
-	</script>
+  <script>
+    function autofill() {
+      var kode_mapel = $("#kode_mapel").val();
+      $.ajax({
+        url: 'autofill.php',
+        data: "kode_mapel=" + kode_mapel,
+      }).success(function(data) {
+        var json = data,
+          obj = JSON.parse(json);
+        $('#nama_mapel').val(obj.nama_mapel);
+      });
+    }
+  </script>
+  <script>
+    function autofills() {
+      var nis = $("#nis").val();
+      $.ajax({
+        url: 'autofill2.php',
+        data: "nis=" + nis,
+      }).success(function(data) {
+        var json = data,
+          obj = JSON.parse(json);
+        $('#nama_siswa').val(obj.nama_siswa);
+      });
+    }
+  </script>
+  </script>
   <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
   <script>
-  $(document).ready(function() {
-    $('#example').DataTable();
-} );
-$('#example').dataTable( {
-  "language": {
-    "paginate": {
-      "previous": "&lt;",
-      "next" : "&gt;"
-      
-    }
-  }
-} );
-</script>
-<script>  
- $(document).ready(function(){  
-      $('#search').keyup(function(){  
-           var query = $(this).val();  
-           if(query != '')  
-           {  
-                $.ajax({  
-                     url:"search.php",  
-                     method:"POST",  
-                     data:{query:query},  
-                     success:function(data)  
-                     {  
-                          $('#searchlist').fadeIn();  
-                          $('#searchlist').html(data);  
-                     }  
-                });  
-           }  
-      });  
-      $(document).on('click', 'li', function(){  
-           $('#search').val($(this).text());  
-           $('#searchlist').fadeOut();  
-      });  
- });  
- </script>
-  
+    $(document).ready(function() {
+      $('#example').DataTable();
+    });
+    $('#example').dataTable({
+      "language": {
+        "paginate": {
+          "previous": "&lt;",
+          "next": "&gt;"
+
+        }
+      }
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#search').keyup(function() {
+        var query = $(this).val();
+        if (query != '') {
+          $.ajax({
+            url: "search.php",
+            method: "POST",
+            data: {
+              query: query
+            },
+            success: function(data) {
+              $('#searchlist').fadeIn();
+              $('#searchlist').html(data);
+            }
+          });
+        }
+      });
+      $(document).on('click', 'li', function() {
+        $('#search').val($(this).text());
+        $('#searchlist').fadeOut();
+      });
+    });
+  </script>
+
   <!--   Argon JS   -->
   <script src="../assets/js/argon-dashboard.min.js?v=1.1.0"></script>
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
