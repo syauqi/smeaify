@@ -2,13 +2,13 @@
 <?php
 
 // Check If form submitted, insert form data into users table.
-if(isset($_POST['kirim'])) {
+if (isset($_POST['kirim'])) {
     $id = $_POST['id'];
     $nis = $_POST['nis'];
     $nama_siswa = $_POST['nama_siswa'];
     $kode_mapel = $_POST['kode_mapel'];
     $nama_mapel = $_POST['nama_mapel'];
-  
+
 
     // include database connection file
     include_once("koneksi.php");

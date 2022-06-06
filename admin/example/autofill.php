@@ -6,4 +6,3 @@ $mapel = mysqli_fetch_array($query);
 $data = array(
             'nama_mapel'      =>  $mapel['nama_mapel']);
  echo json_encode($data);
-?>

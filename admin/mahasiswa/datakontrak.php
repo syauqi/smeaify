@@ -431,26 +431,25 @@ if ($_SESSION['status'] != "login") {
                 <input type="hidden" class="form-control" id="exampleFormControlInput1" name="id">
               </div>
               <br>
-              <label for="search" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Nomor induk siswa</label>
-              <div class="md-form active-pink active-pink-2 mb-3 mt-0">
 
-                <input class="form-control" list="siswa" size="50" type="text" value="<?php echo $d['nis'] ?>" id="nis" onkeyup="autofills()" required name="nis" placeholder="Cari NIS .." aria-label="Search">
 
-                <datalist id="siswa">
-                  <?php
-                  include "koneksi.php";
-                  $username = $_SESSION['username'];
-                  $data = mysqli_query($koneksi, "SELECT nis from siswa where username='$username'");
-                  while ($t = mysqli_fetch_array($data)) {
-                    echo "<option value='$t[nis]'>";
-                  }
-                  ?>
-                </datalist>
-              </div>
-              <div class="form-group">
-                <label for="nama_siswa" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Nama Siswa</label>
-                <input type="text" class="form-control" id="nama_siswa" readonly required name="nama_siswa">
-              </div>
+              <input type="text" class="form-control" id="nis" name="nis" value=" <?php
+                                                                                  include "koneksi.php";
+                                                                                  $username = $_SESSION['username'];
+                                                                                  $data = mysqli_query($koneksi, "SELECT nis from siswa where username='$username'");
+                                                                                  while ($t = mysqli_fetch_array($data)) {
+                                                                                    echo "$t[nis]";
+                                                                                  }
+                                                                                  ?>">
+
+              <input type="text" class="form-control" id="nama_siswa" name="nama_siswa" value="<?php
+                                                                                                include "koneksi.php";
+                                                                                                $username = $_SESSION['username'];
+                                                                                                $data = mysqli_query($koneksi, "SELECT username from siswa where username='$username'");
+                                                                                                while ($t = mysqli_fetch_array($data)) {
+                                                                                                  echo "$t[username]";
+                                                                                                }
+                                                                                                ?>">
               <label for="search" class="font-weight-bold" style="font-family:montserrat; font-size:15px;">Kode Mapel</label>
               <div class="md-form active-pink active-pink-2 mb-3 mt-0">
                 <input class="form-control" list="mapel" size="50" type="text" onkeyup="autofill()" required id="kode_mapel" name="kode_mapel" placeholder="Cari Kode Mapel .." aria-label="Search">
