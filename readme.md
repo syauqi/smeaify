@@ -1,85 +1,123 @@
-<h1 align="center">Selamat datang di Smeaify! 👋</h1>
+<h1 align="center">Selamat datang di repository Smeaify! 👋🏻</h1>
 
-![Smeaify](https://user-images.githubusercontent.com/46257169/90014451-490bb100-dcd1-11ea-9087-4f3f5dd556e0.png)
+![smeaify-preview](https://user-images.githubusercontent.com/46257169/173156058-c94863d6-c9fb-4d68-a9a1-0583f549440e.png)
 
-### 🤔 Apa itu Smeaify?
-Web Edukasi Open Source yang dibuat oleh <a href="https://github.com/syauqi"> SYAUQIZAIDAN KHAIRAN KHALAF </a> . **Smeaify adalah Web akademik yang dilengkapi data kontrak mata kuliah yang dibuat untuk mempermudah sistem akademik di universitas.**
+<p></p>
 
-### 😏 Tujuan dibuatnya Smeaify?
-Smeaify dibuat untuk mempermudah proses manajemen data di universitas agar dapat memperoleh hasil maksimal.
+<h4 align="center">Website pengelolaan data dan nilai akademik universitas yang dibuat dengan native <a href="https://php.net/" target="_blank">PHP</a>.
+</h4>
 
-### 🤨 Fitur yang tersedia di Smeaify
-- Landing page
-- Student Registration
-- Student Login System
-- Easy and simple usability
-- Lessons, students, contract & lecture data management
+<p></p>
 
-### 🏠 <a href="#/">Homepage</a>
-**Halaman Homepage & Dokumentasi project ini sedang saya kembangkan.** oleh karena itu, mohon sabar ya teman teman untuk cara penggunaan dan dokumentasi yang diperlukan. sementara ini jika ada issues dan bug bisa menambah *issue* di repository ini.
+<p align="center">
+	<img src="https://img.shields.io/github/issues/syauqi/smeaify?style=flat-square">
+	<img src="https://img.shields.io/github/stars/syauqi/smeaify?style=flat-square"> 
+	<img src="https://img.shields.io/github/forks/syauqi/smeaify?style=flat-square">
+	<img src="https://img.shields.io/github/license/syauqi/learnify?style=flat-square">
+	<img src="https://img.shields.io/badge/maintained%3F-no-red.svg?style=flat-square">
+	<img src="https://img.shields.io/github/followers/syauqi.svg?style=flat-square&label=followers">
+</p>
 
-### ✨ <a href="#/">Demo</a>
-**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian bisa fork lalu clone dan jalankan di localhost atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
+<p align="center">
+  <a href="#tentang">Tentang Project</a> •
+  <a href="#fitur">Fitur</a> •
+  <a href="#download">Download & Install</a> •
+  <a href="#akun">Akun Default</a> •
+  <a href="#dukungan">Dukungan</a> •
+  <a href="#lisensi">Lisensi</a>
+</p>
 
-### 📆 <a href="#">Release Date</a>
-- First release : 21 January 2020
+<p></p>
 
-------------
+<h2 id="tentang">🏫 Tentang Smeaify</h2>
 
- ### 👤 Default Account for testing
-	
-**Admin Default Account**
-- Username : admin
-- Email : admin@gmail.com 
-- Password : admin
+Website pengelolaan data dan nilai akademik yang dilengkapi kontrak data mata kuliah serta penilaian yang dibuat untuk mempermudah sistem akademik di universitas.
 
-**Students Default Account**
-- Username : Susi
-- Email : susi@gmail.com
-- Password : 123susi123
+<p></p>
 
-------------
+<h2 id="fitur">✨ Fitur Tersedia</h2>
 
-### 🧐 Prasyarat yang diperlukan 
-- Versi PHP5+
-- XAMPP ( Atau apps web server lain )
-- Web Browser  ( Chrome, Firefox, Edge, Safari )
-- Internet ( Karena saya memakai CDN Bootstrap )
+- Autentikasi
+  - Login mahasiswa dan admin
+  - Daftar sebagai mahasiswa
+- Data Management
+  - Mahasiswa [kontrak mata kuliah dan melihat nilai]
+  - Dosen [input nilai]
 
-### ◾️ Note
-Nama database harus id11936322_deprojects dan silahkan import.
+<p></p>
 
-### 💻 Install
- - Clone/Download repository ini lalu simpan di folder htdocs ( Jika kalian memakai XAMPP )
- -  Jalankan di web browser ( Chrome, Firefox, Edge, Safari )
- 
-### 👥  Members
-- SYAUQIZAIDAN KHAIRAN KHALAF
-- Askal Drajat Fahrezi
-- Luthfi Ramdhan Faddilah
-- Nurul Anissa 
+<h2 id="demo">🏠 Halaman Demo</h2>
 
-### 🧑 Author
+Halaman demo untuk sementara tidak ada dikarenakan layanan hosting yang tidak tersedia untuk deploy aplikasi ini, kalian dapat mendownload aplikasi ini lalu menjalankan secara local di komputer anda.
 
-👤 <a href="https://web.facebook.com/syaauqi"> **SYAUQIZAIDAN KHAIRAN KHALAF**</a>
-- Twitter : <a href="https://twitter.com/syaaauqi"> @syaaauqi</a>
-- Facebook : <a href="https://web.facebook.com/syaaauqi"> Syauqi Zaidan Khairan Khalaf</a>
-- Instagram : <a href="https://www.instagram.com/syaufy/">@syaufy </a>
-- Dribbble : <a href="https://dribbble.com/syaufy">@syaufy </a>
-- Behance :  <a href="https://www.behance.net/syaufy">@syaufy </a>
+<p></p>
 
-### 🤝 Contributing
-**Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.** Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!
+<h2 id="akun">🔑 Daftar Akun Tersedia</h2>
 
+Berikut adalah daftar akun untuk keperluan testing saat anda mencoba aplikasi pertama kali, namun anda juga bisa membuat akun dengan daftar di halaman pendaftaran
 
-### 📝 License
-- Copyright © 2020 SYAUQIZAIDAN KHAIRAN KHALAF
-- **This project is MIT licensed. All rights reserved**
+| Role      | Username | Password   | URL                                      |
+| --------- | -------- | ---------- | ---------------------------------------- |
+| Admin     | admin    | admin      | http://localhost/smeaify/admin-login.php |
+| Mahasiswa | susi     | 123susi123 | http://localhost/smeaify/                |
 
-### 🔎 Resources
-- Landing page template by colorlib
-- **Im also making my own landing page, just go and type index2.php**
+<p></p>
 
-------------
-**Made with ❤️ by SYAUQIZAIDAN KHAIRAN KHALAF**
+<h2 id="syarat">💾 Prasyarat yang Diperlukan</h2>
+
+Berikut adalah daftar layanan dan aplikasi yang wajib dan diperlukan selama anda menjalankan aplikasi smeaify jika anda belum menginstall nya maka disarankan untuk menginstall nya terlebih dahulu
+
+- PHP 7, 8 & Web Server [XAMPP, LAMPP, MAMP]
+- Web Browser [Chrome, Firefox, Safari & Opera]
+- Internet [Karena menggunakan banyak CDN]
+
+<p></p>
+
+<h2 id="download">🐱‍💻 Panduan Menjalankan & Install Aplikasi</h2>
+
+Untuk menjalankan aplikasi atau web ini kamu harus install XAMPP atau web server lain dan mempunyai setidaknya satu web browser yang terinstall di komputer anda.
+
+```bash
+# Clone repository ini atau download di
+$ git clone https://github.com/syauqi/smeaify.git
+
+# Buat database
+Buat database dengan nama "smeaify" di DMBS [phpmyadmin, dll]
+
+# Upload database
+Arahkan folder ke smeaify/database/smeaify.sql & upload ke dbms [phpmyadmin]
+
+# Buka browser
+http://localhost/smeaify/
+
+# Enjoy, jika ingin login maka liat panduan akun diatas
+```
+
+<p></p>
+
+<h2 id="dukungan">💌 Dukungan</h2>
+
+Kalian bisa mendukung saya di platform trakteer! Dukungan kalian akan sangat membantu untuk saya, namun dengan anda star project ini juga sudah sangat membantu lho!
+
+<p></p>
+
+<a href="https://trakteer.id/syaufy" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
+
+<p></p>
+
+<h2 id="kontribusi">🤝 Kontribusi</h2>
+
+Contributions, issues and feature requests sangat saya apresiasi karena aplikasi ini jauh dari kata sempurna. Jangan ragu untuk pull request dan membuat perubahan pada project ini.
+
+Berhubung Project ini saya selesaikan sendiri, namun banyak fitur dan banyak hal yang bisa diperbaiki maka bantuan kalian sangat saya apresiasi.
+
+<p></p>
+
+<h2 id="lisensi">📝 Lisensi</h2>
+
+- Copyright © 2022 SYAUQIZAIDAN KHAIRAN KHALAF
+- Smeaify adalah aplikasi web open-source yang berlisensi dibawah lisensi MIT
+
+---
+
+**<p align="center">Made with ❤️ by SYAUQIZAIDAN KHAIRAN KHALAF</p>**
